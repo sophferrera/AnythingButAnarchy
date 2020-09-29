@@ -1,0 +1,145 @@
+body {
+  background-color: #000;
+}
+
+.mainContent {
+  padding-top: 60px;
+}
+
+.navMenu{
+  display: inline-block;
+  margin: 0px;
+  padding-bottom: 10px;
+  background-color: #242498;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Teko', sans-serif;
+}
+
+a {
+  color: #F5EBD1
+}
+
+a:visited {
+  color: #F5EBD1;
+}
+
+a:hover {
+  background-color: #242498;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  color: #F5EBD1;
+  font-size: 80px;
+  text-shadow: 5px 5px 10px red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+.budget, .vote, .vote2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  color: #F5EBD1;
+  font-size: 60px;
+  text-shadow: 5px 5px 10px red;
+}
+
+.subTitle {
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  color: #F5EBD1;
+  font-size: 40px;
+  border: 20px solid transparent;
+  border-image: url(border.png) 100 round;
+}
+
+.bodyContent, .bottomLink, .firstThirds, .secondThirds, .lastQuote, .spending {
+  color: #F5EBD1;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.panorama{
+  text-align: center;
+  width: 100%;
+}
+
+.firstThirds > p {
+  background-color: #C80106;
+  display: inline-block;
+  width: 20%;
+  margin: 0px;
+  padding: 10px;
+}
+
+.secondThirds > p {
+  background-color: #242498;
+  display: inline-block;
+  width: 35%;
+  margin: 0px;
+  padding: 10px;
+}
+
+.lastQuote, .text > p {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.imageCollection > img {
+  width: 30%;
+
+}
+
+.spending {
+  font-size: 30px;
+  background-color: #C80106;
+  margin: 0px;
+
+}
+
+.vote, .vote2 {
+  font-size: 60px;
+  text-shadow: 5px 5px 10px blue;
+}
+
+.howTo {
+  font-size: 45px;
+  padding: 5px;
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+  display: inline;
+}
+
+.links {
+  display: inline-block;
+
+
+}
+
+.links a:link {
+  background-color: #000;
+  border: 20px solid transparent;
+  border-image: url(border.png) 100 round;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
